@@ -1,0 +1,183 @@
+2025-08-12 09:47:04,022 - INFO - 🚀 Bắt đầu xử lý file scan PDF: /root/doc_compare/tmp_cache/tmphhfk5enf/file1.pdf
+2025-08-12 09:47:58,419 - INFO - 📄 Trang 1: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:07,888 - INFO - Đã lưu ảnh với box: ./output/file1_page_1_with_boxes.png
+2025-08-12 09:48:07,888 - INFO - 📄 Trang 2: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:14,455 - INFO - Đã lưu ảnh với box: ./output/file1_page_2_with_boxes.png
+2025-08-12 09:48:14,456 - INFO - 📄 Trang 3: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:21,638 - INFO - Đã lưu ảnh với box: ./output/file1_page_3_with_boxes.png
+2025-08-12 09:48:21,638 - INFO - 📄 Trang 4: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:27,538 - INFO - Đã lưu ảnh với box: ./output/file1_page_4_with_boxes.png
+2025-08-12 09:48:27,538 - INFO - 📄 Trang 5: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:36,996 - INFO - Đã lưu ảnh với box: ./output/file1_page_5_with_boxes.png
+2025-08-12 09:48:36,997 - INFO - 📄 Trang 6: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:43,838 - INFO - Đã lưu ảnh với box: ./output/file1_page_6_with_boxes.png
+2025-08-12 09:48:43,838 - INFO - 📄 Trang 7: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:50,463 - INFO - Đã lưu ảnh với box: ./output/file1_page_7_with_boxes.png
+2025-08-12 09:48:50,464 - INFO - 📄 Trang 8: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:55,959 - INFO - Đã lưu ảnh với box: ./output/file1_page_8_with_boxes.png
+2025-08-12 09:48:55,964 - INFO - page_count: 8
+2025-08-12 09:48:55,964 - INFO - 📄 Tạo char_map từ ./output/file1_result_scan_text.txt với 261 box và 8 trang...
+2025-08-12 09:48:56,006 - INFO - Số ký tự đã ánh xạ: 14390
+2025-08-12 09:48:56,006 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 111.98 giây
+2025-08-12 09:48:56,006 - INFO - Text file: ./output/file1_result_scan_text.txt
+2025-08-12 09:48:56,007 - INFO - Table file: ./output/tables_file1.txt
+2025-08-12 09:51:06,712 - INFO - 🚀 Bắt đầu xử lý file scan PDF: ./file.pdf
+2025-08-12 09:55:24,514 - INFO - 📄 Trang 1: ./out/file_result_scan_text.txt
+2025-08-12 09:55:28,080 - INFO - Đã lưu ảnh với box: ./out/file_page_1_with_boxes.png
+2025-08-12 09:55:28,081 - INFO - 📄 Trang 2: ./out/file_result_scan_text.txt
+2025-08-12 09:55:36,651 - INFO - Đã lưu ảnh với box: ./out/file_page_2_with_boxes.png
+2025-08-12 09:55:36,651 - INFO - 📄 Trang 3: ./out/file_result_scan_text.txt
+2025-08-12 09:55:43,000 - INFO - Đã lưu ảnh với box: ./out/file_page_3_with_boxes.png
+2025-08-12 09:55:43,001 - INFO - 📄 Trang 4: ./out/file_result_scan_text.txt
+2025-08-12 09:55:45,426 - INFO - Đã lưu ảnh với box: ./out/file_page_4_with_boxes.png
+2025-08-12 09:55:45,427 - INFO - 📄 Trang 5: ./out/file_result_scan_text.txt
+2025-08-12 09:55:52,070 - INFO - Đã lưu ảnh với box: ./out/file_page_5_with_boxes.png
+2025-08-12 09:55:52,070 - INFO - 📄 Trang 6: ./out/file_result_scan_text.txt
+2025-08-12 09:55:57,824 - INFO - Đã lưu ảnh với box: ./out/file_page_6_with_boxes.png
+2025-08-12 09:55:57,824 - INFO - 📄 Trang 7: ./out/file_result_scan_text.txt
+2025-08-12 09:56:02,668 - INFO - Đã lưu ảnh với box: ./out/file_page_7_with_boxes.png
+2025-08-12 09:56:02,669 - INFO - 📄 Trang 8: ./out/file_result_scan_text.txt
+2025-08-12 09:56:07,136 - INFO - Đã lưu ảnh với box: ./out/file_page_8_with_boxes.png
+2025-08-12 09:56:07,137 - INFO - 📄 Trang 9: ./out/file_result_scan_text.txt
+2025-08-12 09:56:09,470 - INFO - Đã lưu ảnh với box: ./out/file_page_9_with_boxes.png
+2025-08-12 09:56:09,471 - INFO - 📄 Trang 10: ./out/file_result_scan_text.txt
+2025-08-12 09:56:10,379 - INFO - Đã lưu ảnh với box: ./out/file_page_10_with_boxes.png
+2025-08-12 09:56:10,379 - INFO - 📄 Trang 11: ./out/file_result_scan_text.txt
+2025-08-12 09:56:12,603 - INFO - Đã lưu ảnh với box: ./out/file_page_11_with_boxes.png
+2025-08-12 09:56:12,604 - INFO - 📄 Trang 12: ./out/file_result_scan_text.txt
+2025-08-12 09:56:13,595 - INFO - Đã lưu ảnh với box: ./out/file_page_12_with_boxes.png
+2025-08-12 09:56:13,608 - INFO - page_count: 12
+2025-08-12 09:56:13,609 - INFO - 📄 Tạo char_map từ ./out/file_result_scan_text.txt với 281 box và 12 trang...
+2025-08-12 09:56:13,637 - INFO - Số ký tự đã ánh xạ: 14365
+2025-08-12 09:56:13,637 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 306.92 giây
+2025-08-12 09:56:13,638 - INFO - Text file: ./out/file_result_scan_text.txt
+2025-08-12 09:56:13,638 - INFO - Table file: ./out/tables_file.txt
+2025-08-12 10:02:01,718 - INFO - 🚀 Bắt đầu xử lý file scan PDF: ./doc.pdf
+2025-08-12 10:02:58,912 - INFO - 📄 Trang 1: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:06,758 - INFO - Đã lưu ảnh với box: ./out/doc_page_1_with_boxes.png
+2025-08-12 10:03:06,758 - INFO - 📄 Trang 2: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:11,586 - INFO - Đã lưu ảnh với box: ./out/doc_page_2_with_boxes.png
+2025-08-12 10:03:11,586 - INFO - 📄 Trang 3: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:17,597 - INFO - Đã lưu ảnh với box: ./out/doc_page_3_with_boxes.png
+2025-08-12 10:03:17,597 - INFO - 📄 Trang 4: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:22,126 - INFO - Đã lưu ảnh với box: ./out/doc_page_4_with_boxes.png
+2025-08-12 10:03:22,126 - INFO - 📄 Trang 5: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:27,668 - INFO - Đã lưu ảnh với box: ./out/doc_page_5_with_boxes.png
+2025-08-12 10:03:27,668 - INFO - 📄 Trang 6: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:33,088 - INFO - Đã lưu ảnh với box: ./out/doc_page_6_with_boxes.png
+2025-08-12 10:03:33,088 - INFO - 📄 Trang 7: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:37,100 - INFO - Đã lưu ảnh với box: ./out/doc_page_7_with_boxes.png
+2025-08-12 10:03:37,100 - INFO - 📄 Trang 8: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:40,528 - INFO - Đã lưu ảnh với box: ./out/doc_page_8_with_boxes.png
+2025-08-12 10:03:40,531 - INFO - page_count: 8
+2025-08-12 10:03:40,531 - INFO - 📄 Tạo char_map từ ./out/doc_result_scan_text.txt với 246 box và 8 trang...
+2025-08-12 10:03:40,563 - INFO - Số ký tự đã ánh xạ: 14082
+2025-08-12 10:03:40,564 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 98.85 giây
+2025-08-12 10:03:40,564 - INFO - Text file: ./out/doc_result_scan_text.txt
+2025-08-12 10:03:40,564 - INFO - Table file: ./out/tables_doc.txt
+2025-08-12 10:03:40,564 - INFO - page_count: 8
+2025-08-12 10:03:40,564 - INFO - 📄 Tạo char_map từ ./out/doc_result_scan_text.txt với 246 box và 8 trang...
+2025-08-12 10:07:04,841 - INFO - 🚀 Bắt đầu xử lý file scan PDF: ./doc_test.pdf
+2025-08-12 10:07:18,503 - INFO - 📄 Trang 1: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:07:22,792 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_1_with_boxes.png
+2025-08-12 10:07:22,792 - INFO - 📄 Trang 2: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:07:32,666 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_2_with_boxes.png
+2025-08-12 10:07:32,666 - INFO - 📄 Trang 3: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:07:35,827 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_3_with_boxes.png
+2025-08-12 10:07:35,829 - INFO - page_count: 3
+2025-08-12 10:07:35,829 - INFO - 📄 Tạo char_map từ ./out/doc_test_result_scan_text.txt với 74 box và 3 trang...
+2025-08-12 10:07:35,837 - INFO - Số ký tự đã ánh xạ: 2797
+2025-08-12 10:07:35,838 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 31.00 giây
+2025-08-12 10:07:35,838 - INFO - Text file: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:07:35,838 - INFO - Table file: ./out/tables_doc_test.txt
+2025-08-12 10:07:35,838 - INFO - page_count: 8
+2025-08-12 10:07:35,838 - INFO - 📄 Tạo char_map từ ./out/doc_test_result_scan_norm_text.txt với 74 box và 8 trang...
+2025-08-12 10:10:51,410 - INFO - 🚀 Bắt đầu xử lý file scan PDF: ./doc_test.pdf
+2025-08-12 10:11:05,166 - INFO - 📄 Trang 1: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:11:09,845 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_1_with_boxes.png
+2025-08-12 10:11:09,845 - INFO - 📄 Trang 2: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:11:20,071 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_2_with_boxes.png
+2025-08-12 10:11:20,071 - INFO - 📄 Trang 3: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:11:24,004 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_3_with_boxes.png
+2025-08-12 10:11:24,005 - INFO - page_count: 3
+2025-08-12 10:11:24,006 - INFO - 📄 Tạo char_map từ ./out/doc_test_result_scan_text.txt với 74 box và 3 trang...
+2025-08-12 10:11:24,014 - INFO - Số ký tự đã ánh xạ: 2797
+2025-08-12 10:11:24,014 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 32.60 giây
+2025-08-12 10:11:24,014 - INFO - Text file: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:11:24,014 - INFO - Table file: ./out/tables_doc_test.txt
+2025-08-12 10:11:24,014 - INFO - page_count: 8
+2025-08-12 10:11:24,014 - INFO - 📄 Tạo char_map từ ./out/doc_test_result_scan_norm_text.txt với 74 box và 8 trang...
+2025-08-12 10:14:54,838 - INFO - 🚀 Bắt đầu xử lý file scan PDF: ./doc_test.pdf
+2025-08-12 10:15:08,771 - INFO - 📄 Trang 1: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:15:13,187 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_1_with_boxes.png
+2025-08-12 10:15:13,187 - INFO - 📄 Trang 2: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:15:23,775 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_2_with_boxes.png
+2025-08-12 10:15:23,775 - INFO - 📄 Trang 3: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:15:27,371 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_3_with_boxes.png
+2025-08-12 10:15:27,373 - INFO - page_count: 3
+2025-08-12 10:15:27,373 - INFO - 📄 Tạo char_map từ ./out/doc_test_result_scan_text.txt với 74 box và 3 trang...
+2025-08-12 10:15:27,385 - INFO - Số ký tự đã ánh xạ: 2797
+2025-08-12 10:15:27,385 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 32.55 giây
+2025-08-12 10:15:27,385 - INFO - Text file: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:15:27,385 - INFO - Table file: ./out/tables_doc_test.txt
+2025-08-12 10:16:47,849 - INFO - 🚀 Bắt đầu xử lý file scan PDF: ./doc_test.pdf
+2025-08-12 10:17:01,873 - INFO - 📄 Trang 1: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:17:06,437 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_1_with_boxes.png
+2025-08-12 10:17:06,438 - INFO - 📄 Trang 2: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:17:16,490 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_2_with_boxes.png
+2025-08-12 10:17:16,490 - INFO - 📄 Trang 3: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:17:20,050 - INFO - Đã lưu ảnh với box: ./out/doc_test_page_3_with_boxes.png
+2025-08-12 10:17:20,051 - INFO - page_count: 3
+2025-08-12 10:17:20,051 - INFO - 📄 Tạo char_map từ ./out/doc_test_result_scan_text.txt với 74 box và 3 trang...
+2025-08-12 10:17:20,064 - INFO - Số ký tự đã ánh xạ: 2797
+2025-08-12 10:17:20,065 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 32.22 giây
+2025-08-12 10:17:20,065 - INFO - Text file: ./out/doc_test_result_scan_text.txt
+2025-08-12 10:17:20,065 - INFO - Table file: ./out/tables_doc_test.txt
+2025-08-12 10:19:27,180 - INFO - 🚀 Bắt đầu xử lý file scan PDF: /root/doc_compare/tmp_cache/tmpgmglh567/file1.pdf
+2025-08-12 10:20:21,241 - INFO - 📄 Trang 1: ./output/file1_result_scan_text.txt
+2025-08-12 10:20:31,400 - INFO - Đã lưu ảnh với box: ./output/file1_page_1_with_boxes.png
+2025-08-12 10:20:31,400 - INFO - 📄 Trang 2: ./output/file1_result_scan_text.txt
+2025-08-12 10:20:39,873 - INFO - Đã lưu ảnh với box: ./output/file1_page_2_with_boxes.png
+2025-08-12 10:20:39,873 - INFO - 📄 Trang 3: ./output/file1_result_scan_text.txt
+2025-08-12 10:20:48,085 - INFO - Đã lưu ảnh với box: ./output/file1_page_3_with_boxes.png
+2025-08-12 10:20:48,086 - INFO - 📄 Trang 4: ./output/file1_result_scan_text.txt
+2025-08-12 10:20:54,901 - INFO - Đã lưu ảnh với box: ./output/file1_page_4_with_boxes.png
+2025-08-12 10:20:54,902 - INFO - 📄 Trang 5: ./output/file1_result_scan_text.txt
+2025-08-12 10:21:04,644 - INFO - Đã lưu ảnh với box: ./output/file1_page_5_with_boxes.png
+2025-08-12 10:21:04,644 - INFO - 📄 Trang 6: ./output/file1_result_scan_text.txt
+2025-08-12 10:21:11,589 - INFO - Đã lưu ảnh với box: ./output/file1_page_6_with_boxes.png
+2025-08-12 10:21:11,589 - INFO - 📄 Trang 7: ./output/file1_result_scan_text.txt
+2025-08-12 10:21:18,404 - INFO - Đã lưu ảnh với box: ./output/file1_page_7_with_boxes.png
+2025-08-12 10:21:18,405 - INFO - 📄 Trang 8: ./output/file1_result_scan_text.txt
+2025-08-12 10:21:23,923 - INFO - Đã lưu ảnh với box: ./output/file1_page_8_with_boxes.png
+2025-08-12 10:21:23,929 - INFO - page_count: 8
+2025-08-12 10:21:23,929 - INFO - 📄 Tạo char_map từ ./output/file1_result_scan_text.txt với 261 box và 8 trang...
+2025-08-12 10:21:24,005 - INFO - Số ký tự đã ánh xạ: 14390
+2025-08-12 10:21:24,006 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 116.82 giây
+2025-08-12 10:21:24,006 - INFO - Text file: ./output/file1_result_scan_text.txt
+2025-08-12 10:21:24,006 - INFO - Table file: ./output/tables_file1.txt
+2025-08-12 10:24:31,717 - INFO - 🚀 Bắt đầu xử lý file scan PDF: /root/doc_compare/tmp_cache/tmpx_rlbrlt/file1.pdf
+2025-08-12 10:25:25,994 - INFO - 📄 Trang 1: ./output/file1_result_scan_text.txt
+2025-08-12 10:25:34,632 - INFO - Đã lưu ảnh với box: ./output/file1_page_1_with_boxes.png
+2025-08-12 10:25:34,633 - INFO - 📄 Trang 2: ./output/file1_result_scan_text.txt
+2025-08-12 10:25:40,592 - INFO - Đã lưu ảnh với box: ./output/file1_page_2_with_boxes.png
+2025-08-12 10:25:40,592 - INFO - 📄 Trang 3: ./output/file1_result_scan_text.txt
+2025-08-12 10:25:48,270 - INFO - Đã lưu ảnh với box: ./output/file1_page_3_with_boxes.png
+2025-08-12 10:25:48,270 - INFO - 📄 Trang 4: ./output/file1_result_scan_text.txt
+2025-08-12 10:25:54,242 - INFO - Đã lưu ảnh với box: ./output/file1_page_4_with_boxes.png
+2025-08-12 10:25:54,242 - INFO - 📄 Trang 5: ./output/file1_result_scan_text.txt
+2025-08-12 10:26:03,779 - INFO - Đã lưu ảnh với box: ./output/file1_page_5_with_boxes.png
+2025-08-12 10:26:03,779 - INFO - 📄 Trang 6: ./output/file1_result_scan_text.txt
+2025-08-12 10:26:09,864 - INFO - Đã lưu ảnh với box: ./output/file1_page_6_with_boxes.png
+2025-08-12 10:26:09,865 - INFO - 📄 Trang 7: ./output/file1_result_scan_text.txt
+2025-08-12 10:26:16,138 - INFO - Đã lưu ảnh với box: ./output/file1_page_7_with_boxes.png
+2025-08-12 10:26:16,139 - INFO - 📄 Trang 8: ./output/file1_result_scan_text.txt
+2025-08-12 10:26:20,439 - INFO - Đã lưu ảnh với box: ./output/file1_page_8_with_boxes.png
+2025-08-12 10:26:20,443 - INFO - page_count: 8
+2025-08-12 10:26:20,444 - INFO - 📄 Tạo char_map từ ./output/file1_result_scan_text.txt với 261 box và 8 trang...
+2025-08-12 10:26:20,503 - INFO - Số ký tự đã ánh xạ: 14390
+2025-08-12 10:26:20,504 - INFO - ✅ Hoàn thành xử lý file scan PDF trong 108.79 giây
+2025-08-12 10:26:20,504 - INFO - Text file: ./output/file1_result_scan_text.txt
+2025-08-12 10:26:20,504 - INFO - Table file: ./output/tables_file1.txt
+2025-08-12 10:27:02,968 - INFO - page_count: 8
+2025-08-12 10:27:02,968 - INFO - 📄 Tạo char_map từ ./output/file1_result_scan_text.txt với 261 box và 8 trang...

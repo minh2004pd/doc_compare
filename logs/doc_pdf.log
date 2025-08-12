@@ -1,0 +1,39 @@
+2025-08-12 09:48:56,064 - INFO - 🚀 Bắt đầu xử lý file doc PDF: /root/doc_compare/tmp_cache/tmphhfk5enf/file2.pdf
+2025-08-12 09:48:56,222 - INFO -  Page: 1  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:56,509 - INFO -  Page: 2  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:56,694 - INFO -  Page: 3  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:56,827 - INFO -  Page: 4  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:57,041 - INFO -  Page: 5  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:57,274 - INFO -  Page: 6  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:57,408 - INFO -  Page: 7  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:57,455 - INFO -  Page: 8  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 09:48:57,458 - INFO - ✅ Đã xử lý xong file doc PDF.
+2025-08-12 09:48:57,458 - INFO - Text file: ./output/file1/file2_result_doc_text.txt
+2025-08-12 09:48:57,459 - INFO - Table file: ./output/file1/file2_tables.txt
+2025-08-12 09:48:57,459 - INFO - ⏱️ Thời gian xử lý: 1.40 giây
+2025-08-12 10:21:24,104 - INFO - 🚀 Bắt đầu xử lý file doc PDF: /root/doc_compare/tmp_cache/tmpgmglh567/file2.pdf
+2025-08-12 10:21:24,262 - INFO -  Page: 1  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:24,553 - INFO -  Page: 2  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:24,755 - INFO -  Page: 3  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:24,892 - INFO -  Page: 4  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:25,091 - INFO -  Page: 5  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:25,302 - INFO -  Page: 6  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:25,434 - INFO -  Page: 7  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:25,480 - INFO -  Page: 8  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:21:25,483 - INFO - ✅ Đã xử lý xong file doc PDF.
+2025-08-12 10:21:25,484 - INFO - Text file: ./output/file1/file2_result_doc_text.txt
+2025-08-12 10:21:25,484 - INFO - Table file: ./output/file1/file2_tables.txt
+2025-08-12 10:21:25,484 - INFO - ⏱️ Thời gian xử lý: 1.38 giây
+2025-08-12 10:26:20,560 - INFO - 🚀 Bắt đầu xử lý file doc PDF: /root/doc_compare/tmp_cache/tmpx_rlbrlt/file2.pdf
+2025-08-12 10:26:20,692 - INFO -  Page: 1  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:20,960 - INFO -  Page: 2  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,131 - INFO -  Page: 3  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,257 - INFO -  Page: 4  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,450 - INFO -  Page: 5  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,657 - INFO -  Page: 6  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,781 - INFO -  Page: 7  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,823 - INFO -  Page: 8  🚫 Bỏ qua dòng chứa 'tham dinh phap ly'
+2025-08-12 10:26:21,825 - INFO - ✅ Đã xử lý xong file doc PDF.
+2025-08-12 10:26:21,825 - INFO - Text file: ./output/file1/file2_result_doc_text.txt
+2025-08-12 10:26:21,825 - INFO - Table file: ./output/file1/file2_tables.txt
+2025-08-12 10:26:21,826 - INFO - ⏱️ Thời gian xử lý: 1.27 giây

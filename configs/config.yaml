@@ -1,0 +1,67 @@
+output_dir: "./output"
+log_dir: "./logs"
+weights_dir: "./weights"
+cache_dir: "./cache"
+
+model:
+  type: "transformer"
+  ocr_weights: "./weights/transformerocr_v2.pth"
+  device: "cuda"
+  ocr_batch_size: 4
+  layout_model: "PP-DocLayout_plus-L"
+  table_model: "RT-DETR-L_wireless_table_cell_det"
+  text_detector_model: "PP-OCRv5_server_det"
+
+params:
+  max_length: 512
+  max_num_pages: 1000
+  thresh_y: 30
+  y_tol: 10
+
+special_tokens:
+  - "..."
+  - "…"
+  - ",-"
+  - "--"
+  - "–"
+  - "—"
+  - "―"
+  - "•"
+  - "·"
+  - "“"
+  - "”"
+  - "‘"
+  - "’"
+  - "!"
+  - "?"
+  - ":"
+  - ";"
+  - "("
+  - ")"
+  - "["
+  - "]"
+  - "{"
+  - "}"
+  - "<"
+  - ">"
+  - "/"
+  - "\\"
+  - "|"
+  - "="
+  - "+"
+  - "-"
+  - "*"
+  - "&"
+  - "^"
+  - "%"
+  - "$"
+  - "#"
+  - "@"
+  - "~"
+  - "`"
+  - "'"
+  - '"'
+table_header_keywords:
+  - "stt"
+  - "tt"
+  - "số thứ tự"
