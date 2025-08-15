@@ -1,0 +1,6 @@
+./out/
+./venv/
+./weights/
+./.env/
+./tmp_cache/
+./gradio/

@@ -21,8 +21,6 @@ from src.utils import (
     normalize_text,
     normalize_line
 )
-from concurrent.futures import ThreadPoolExecutor
-from src.scan_pdf.table_scan_process import process_tables, build_table_cell_map_from_box_text
 import diff_match_patch as dmp_module
 import re
 import torch
@@ -34,6 +32,7 @@ import uuid
 import fitz
 import io
 import logging
+from src.modules.scan_table_process import process_tables, build_table_cell_map_from_box_text
 
 def setup_logger(log_path="./logs/scan_pdf.log"):
     os.makedirs(os.path.dirname(log_path), exist_ok=True)
@@ -267,86 +266,3 @@ def process_scan_file1(pdf_path, output_dir="./output", text_detector=None, dete
         f_txt.write("\n".join(all_txt_lines))
 
     return output_txt_path, box_to_text, len(image_paths), cell_box_to_text_map, table_map
-
-def run_scan_pdf_pipeline(pdf_path, output_dir="./output", max_num_pages=1000, text_detector=None, detector=None, layout_detector=None, table_cells_detector=None):
-    """
-    Pipeline xử lý file scan PDF:
-    - Chuyển PDF sang ảnh
-    - Phát hiện layout, crop bảng
-    - Nhận diện text bằng OCR batch
-    - Trích xuất bảng
-    - Sinh char map
-    - Lưu kết quả
-    """
-
-    file_name = os.path.splitext(os.path.basename(pdf_path))[0]
-    logger.info(f"🚀 Bắt đầu xử lý file scan PDF: {pdf_path}")
-
-    t0 = time.time()
-    # Bước 1: Xử lý scan, nhận diện text, bảng
-    txt_path, box_to_text, page_count, cell_box_to_text_map, table_map = process_scan_file1(
-        pdf_path,
-        output_dir=output_dir,
-        text_detector=text_detector,
-        detector=detector,
-        layout_detector=layout_detector,
-        table_cells_detector=table_cells_detector,
-        max_num_pages=max_num_pages
-    )
-
-    # Bước 2: Trích xuất bảng từ cell_box_to_text_map
-    cell_map, txt_table_path = build_table_cell_map_from_box_text(
-        cell_box_to_text_map, table_map, output_dir=output_dir, file_name=file_name
-    )
-
-    # Bước 3: Sinh char map cho text
-    char_box_mappings = build_char_map_list(txt_path, box_to_text, page_count)
-    logger.info(f"Số ký tự đã ánh xạ: {len(char_box_mappings)}")
-
-    t1 = time.time()
-    logger.info(f"✅ Hoàn thành xử lý file scan PDF trong {t1 - t0:.2f} giây")
-    logger.info(f"Text file: {txt_path}")
-    logger.info(f"Table file: {txt_table_path}")
-
-    return {
-        "text_path": txt_path,
-        "text_table_path": txt_table_path,
-        "char_box_mappings": char_box_mappings,
-        "cell_map": cell_map,
-        "cell_box_to_text_map": cell_box_to_text_map,
-        "box_to_text": box_to_text,
-        "table_map": table_map,
-    }
-
-def main():
-
-    # paddle ocr text detection
-    text_detector = TextDetection(model_name="PP-OCRv5_server_det")
-    model_type = "transformer"  # Hoặc "crnn" nếu bạn muốn dùng mô hình CRNN
-    config = Cfg.load_config_from_name(f'vgg_{model_type}')
-    config['weights'] = f'./weights/{model_type}ocr_v2.pth'  # Đảm bảo bạn đã tải trọng số phù hợp
-    config['device'] = 'cuda' if torch.cuda.is_available() else 'cpu'
-    detector = Predictor(config)
-    layout_detector = LayoutDetection(model_name="PP-DocLayout_plus-L")
-    table_cells_detector = TableCellsDetection(model_name="RT-DETR-L_wireless_table_cell_det")
-
-    text_to_boxes = {}
-    pdf_path = "./doc_test.pdf"
-    output_dir = "./out"
-
-    result = run_scan_pdf_pipeline(
-        pdf_path,
-        output_dir=output_dir,
-        max_num_pages=1000,
-        text_detector=text_detector,
-        detector=detector,
-        layout_detector=layout_detector,
-        table_cells_detector=table_cells_detector
-    )
-
-    # output_txt_path = os.path.join(output_dir, f"{os.path.splitext(os.path.basename(pdf_path))[0]}_result_scan_norm_text.txt")
-
-    # out = build_char_map_list(output_txt_path, result["box_to_text"], page_count=8)
-# 
-if __name__ == "__main__":
-    main()

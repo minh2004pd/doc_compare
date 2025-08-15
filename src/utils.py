@@ -176,12 +176,13 @@ def ocr_image_with_gpt4(image_pil, custom_prompt=None):
         custom_prompt: Custom prompt cho OCR
     """
     # Default prompt cho OCR
-    default_prompt = """OCR CHÍNH XÁC 100%:
+    default_prompt = """Bạn là một chuyên gia OCR, OCR CHÍNH XÁC 100%:
     - Đọc TỪNG KÝ TỰ như trong ảnh
     - KHÔNG sửa chính tả, KHÔNG đoán từ, không thêm từ, không bỏ từ
     - KHÔNG dịch nghĩa, không giải thích, không thêm chú thích
     - KHÔNG thêm/bớt dấu câu, không thêm/bớt khoảng trắng
     - KHÔNG thêm/bớt chữ hoa/thường
+    - KHÔNG thêm/bớt chữ số, không thêm/bớt ký tự đặc biệt
     - KHÔNG thêm/bớt dấu câu, không thêm/bớt khoảng trắng
     - KHÔNG thêm/bớt ký tự
     - KHÔNG sử dụng markdown format (không dùng ```, không dùng dấu nháy)
@@ -239,36 +240,6 @@ def ocr_image_with_gpt4(image_pil, custom_prompt=None):
         
     except Exception as e:
         return f"Lỗi OCR: {e}"
-
-
-def create_voc_xml(filename, width, height, boxes):
-    ann = Element("annotation")
-    SubElement(ann, "filename").text = filename
-    SubElement(ann, "folder").text = ""
-    source = SubElement(ann, "source")
-    SubElement(source, "sourceImage").text = ""
-    SubElement(source, "sourceAnnotation").text = "Datumaro"
-    size = SubElement(ann, "imagesize")
-    SubElement(size, "nrows").text = str(height)
-    SubElement(size, "ncols").text = str(width)
-
-    for idx, (xmin, ymin, xmax, ymax, text) in enumerate(boxes):
-        obj = SubElement(ann, "object")
-        SubElement(obj, "name").text = "tes"
-        SubElement(obj, "deleted").text = "0"
-        SubElement(obj, "verified").text = "0"
-        SubElement(obj, "occluded").text = "no"
-        SubElement(obj, "id").text = str(idx)
-        SubElement(obj, "type").text = "bounding_box"
-        poly = SubElement(obj, "polygon")
-        for x, y in [(xmin,ymin),(xmax,ymin),(xmax,ymax),(xmin,ymax)]:
-            pt = SubElement(poly, "pt")
-            SubElement(pt, "x").text = f"{x:.2f}"
-            SubElement(pt, "y").text = f"{y:.2f}"
-        SubElement(obj, "attributes").text = f"Content={text}, rotation=0.0"
-
-    xml = parseString(tostring(ann)).toprettyxml(indent="  ")
-    return xml
 
 def group_boxes_by_line(dt_polys, rec_texts, line_threshold=15):
     """

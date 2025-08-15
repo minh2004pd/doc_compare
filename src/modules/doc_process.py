@@ -170,34 +170,3 @@ def process_doc_file(pdf_path, output_dir="./output"):
                     f_table.write("\t".join(r) + "\n")
 
     return output_txt_path, output_table_path
-
-def run_doc_pdf_pipeline(pdf_path, output_dir="./output"):
-    """
-    Pipeline xử lý file doc PDF:
-    - Trích xuất text ngoài bảng
-    - Trích xuất bảng
-    - Lưu ra file kết quả
-    """
-    t0 = time.time()
-    logger.info(f"🚀 Bắt đầu xử lý file doc PDF: {pdf_path}")
-    txt_path, text_table_path = process_doc_file(pdf_path, output_dir=output_dir)
-    logger.info(f"✅ Đã xử lý xong file doc PDF.")
-    logger.info(f"Text file: {txt_path}")
-    logger.info(f"Table file: {text_table_path}")
-    t1 = time.time()
-    logger.info(f"⏱️ Thời gian xử lý: {t1 - t0:.2f} giây")
-    return {
-        "text_path": txt_path,
-        "text_table_path": text_table_path,
-        "char_box_mappings": None,
-        "cell_map": None,
-        "cell_box_to_text_map": None,
-        "box_to_text": None,
-        "table_map": None
-    }
-
-if __name__ == "__main__":
-    pdf_path = "./file.pdf"
-    output_dir = "./out2"
-    result = run_doc_pdf_pipeline(pdf_path, output_dir=output_dir)
-
